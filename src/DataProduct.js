@@ -6,6 +6,7 @@ const productData = [
         name: 'Fancy Product',
         rating: '',
         price: '$40.00 - $80.00',
+        priceOff:'',
         button: 'View options'
     },
     {
@@ -14,61 +15,68 @@ const productData = [
         sale: 'Sale',
         name: 'Special Item',
         rating: '5',
-        price: '$20.00 $80.00',
+        price: '$80.00',
+        priceOff: '$20.00',
         button: 'Add to cart'
     },
     {
-        id: 1,
+        id: 3,
         image: "https://dummyimage.com/450x300/dee2e6/6c757d.jpg",
         sale: 'Sale',
         name: 'Sale Item',
         rating: '',
-        price: '$50.00 $25.00',
+        price: '$25.00',
+        priceOff: '$50.00',
         button: 'Add to cart'
     },
     {
-        id: 1,
+        id: 4,
         image: "https://dummyimage.com/450x300/dee2e6/6c757d.jpg",
         sale: '',
         name: 'Popular Item',
         rating: '5',
         price: '$40.00',
+        priceOff:'',
         button: 'Add to cart'
     },
     {
-        id: 1,
+        id: 5,
         image: "https://dummyimage.com/450x300/dee2e6/6c757d.jpg",
         sale: 'Sale',
         name: 'Sale Item',
         rating: '',
-        price: '$50.00 $25.00',
+        price: '$25.00',
+        priceOff:'$50.00',
         button: 'Add to cart'
     },
     {
-        id: 1,
+        id: 6,
         image: "https://dummyimage.com/450x300/dee2e6/6c757d.jpg",
         sale: '',
         name: 'Fancy Product',
         rating: '',
         price: '$120.00 - $280.00',
+        priceOff:'',
         button: 'View options'
     },
     {
-        id: 1,
+        id: 7,
         image: "https://dummyimage.com/450x300/dee2e6/6c757d.jpg",
         sale: 'Sale',
         name: 'Special Item',
         rating: '5',
-        price: '$20.00 $18.00',
+        price: '$18.00',
+        priceOff:'$20.00',
         button: 'Add to cart'
     },
     {
-        id: 1,
+        id: 8,
         image: "https://dummyimage.com/450x300/dee2e6/6c757d.jpg",
         sale: '',
         name: 'Popular Item',
         rating: '5',
         price: '$40.00',
+        priceOff:'',
         button: 'Add to cart'
     }
 ];
