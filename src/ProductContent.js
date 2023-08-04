@@ -15,7 +15,9 @@ const ProductContent = (props) => {
             <h5 className="fw-bolder">{props.name}</h5>
             <div className="d-flex justify-content-center small text-warning mb-2">
               {[...Array(props.rating)].map((index) => {
-                <BsStar id={index + 1} key={index}/>;
+                return(
+                    <BsStar id={index + 1} key={index}/>
+                );
               })}
             </div>
             <span className="text-muted text-decoration-line-through">{props.priceOff}</span>
